@@ -36,7 +36,9 @@ EOF
 
 package()
 {
+  install -Dm644 scientifica-11.bdf "${pkgdir}/usr/share/fonts/misc/scientifica-11.bdf"
   install -Dm644 75-yes-scientifica.conf "${pkgdir}/etc/fonts/conf.avail/75-yes-scientifica.conf"
   install -dm755 "${pkgdir}/etc/fonts/conf.d"
-  ln -sf -t "${pkgdir}/etc/fonts/conf.d" ../conf.avail/75-yes-terminus.conf
+  install -dm755 "${pkgdir}/usr/share/fonts"
+  ln -sf -t "${pkgdir}/etc/fonts/conf.d" ../conf.avail/75-yes-scientifica.conf
 }
