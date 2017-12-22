@@ -11,7 +11,7 @@ depends=(xorg-fonts-encodings xorg-fonts-alias xorg-font-utils fontconfig)
 conflicts=(scientifica-font)
 provides=(scientifica-font)
 install=scientifica-font.install
-source=(https://raw.githubusercontent.com/sjossi/scientifica/master/75-yes-scientifica.conf
+source=(https://raw.githubusercontent.com/sjossi/scientifica-font/master/75-yes-scientifica.conf
         https://raw.githubusercontent.com/NerdyPepper/scientifica/master/scientifica-11.bdf)
 md5sums=('527aa5ed9023e7d2face57d48cfce034'
          'd134dfeeb97109ce3b582d3c89341035')
