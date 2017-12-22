@@ -1,2 +1,1 @@
-# scientifica-font
-scientifica-font AUR package
+AUR-Package for scientifica font
